@@ -23,21 +23,23 @@ Dieses Repository enthält die Struktur und Dokumentation für einen UiPath Bot 
 
 ## Projektstruktur
 
+```
 slp-anlagenbestand-uipath
 │
 ├─ docs
-│ ├─ excel
-│ ├─ process
-│ └─ decisions
+│  ├─ excel
+│  ├─ process
+│  └─ decisions
 │
 ├─ src
-│ └─ InvokeCode
-│ (C# Snippets für UiPath Invoke Code)
+│  └─ InvokeCode
+│     (C# Snippets für UiPath Invoke Code)
 │
 ├─ uipath
-│ └─ SLP-Anlagenbestand-Bot
-│ (UiPath Studio Projekt)
+│  └─ SLP-Anlagenbestand-Bot
+│     (UiPath Studio Projekt)
 │
 └─ data
-├─ input
-└─ output
+   ├─ input
+   └─ output
+```
