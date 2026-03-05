@@ -1,0 +1,20 @@
+﻿# UiPath / Studio
+.uipath/
+.project/
+.local/
+*.user
+*.tmp
+*.bak
+*.nupkg
+*.log
+
+# Build/IDE
+.vs/
+bin/
+obj/
+
+# Daten nicht versionieren
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
